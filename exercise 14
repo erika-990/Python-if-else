@@ -1,0 +1,2 @@
+pct = float(input("Enter percentage (0-100): "))
+print("Valid percentage" if 0 <= pct <= 100 else "Invalid percentage")
