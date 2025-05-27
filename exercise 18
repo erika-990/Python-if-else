@@ -1,0 +1,5 @@
+date = input("Date (DD.MM.YY): ")
+dd, mm, yy = date.split(".")
+year = int(yy)
+is_leap = (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+print("Leap year" if is_leap else "Not a leap year")
