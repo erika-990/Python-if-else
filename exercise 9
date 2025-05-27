@@ -1,0 +1,2 @@
+ns = input("Continue? (yes/no): ").lower()
+print("Continuing" if ans == "yes" else "Stopping")
