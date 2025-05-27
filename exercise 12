@@ -1,0 +1,8 @@
+s1 = input("String 1: ")
+s2 = input("String 2: ")
+if len(s1) > len(s2):
+    print("First is longer")
+elif len(s2) > len(s1):
+    print("Second is longer")
+else:
+    print("Same length")
