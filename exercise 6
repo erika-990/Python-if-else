@@ -1,0 +1,3 @@
+pw1 = input("Password 1: ")
+pw2 = input("Password 2: ")
+print("Passwords match" if pw1 == pw2 else "Do not match")
