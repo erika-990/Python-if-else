@@ -1,0 +1,4 @@
+nums = [float(input(f"Number {i+1}: ")) for i in range(3)]
+largest, smallest = max(nums), min(nums)
+middle = sum(nums) - largest - smallest
+print("Largest:", largest, "Smallest:", smallest, "Middle:", middle)
