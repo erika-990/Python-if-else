@@ -1,0 +1,2 @@
+color = input("Enter a color: ").lower()
+print("Known color" if color in ["red","blue","green"] else "Unknown color")
