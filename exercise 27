@@ -1,0 +1,9 @@
+mux = input("Enter 0,1 or 2: ")
+if mux == "0":
+    print("Example 0")
+elif mux == "1":
+    print("Example 1")
+elif mux == "2":
+    print("Example 2")
+else:
+    print("Other")
