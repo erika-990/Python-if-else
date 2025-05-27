@@ -1,0 +1,2 @@
+n = int(input("Enter a number: "))
+print("OK" if 1 <= n <= 10 else "Out of range")
