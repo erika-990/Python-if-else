@@ -1,0 +1,2 @@
+n = int(input("Enter a number: "))
+print("Single digit" if 0 <= n <= 9 else "Multiple digits")
