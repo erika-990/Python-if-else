@@ -1,0 +1,5 @@
+name = input("Enter name: ")
+if name == "Admin":
+    print("Welcome, Admin!")
+else:
+    print(f"Hello, {name}!")
