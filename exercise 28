@@ -1,0 +1,3 @@
+grade = input("Enter grade (A-F): ").upper()
+descriptions = {"A":"Excellent","B":"Very Good","C":"Good","D":"Pass","E":"Sufficient","F":"Fail"}
+print(descriptions.get(grade, "Invalid grade"))
