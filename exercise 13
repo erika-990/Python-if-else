@@ -1,0 +1,2 @@
+exp = int(input("Years of experience: "))
+print("Retirement" if exp >= 65 else "Worker")
