@@ -1,0 +1,2 @@
+pw = input("Enter password: ")
+print(f"Length: {len(pw)}" if 6 <= len(pw) <= 12 else "Password too short/long")
